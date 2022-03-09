@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0;
+  width: 20rem;
+  border: 1px solid lightgrey;
+  transition: border 0.2s ease;
+}
+
+.user:hover {
+  border: 1px solid black;
+}
+
+.usersWrapper {
+  max-height: 100vh;
+  overflow: auto;
+}
