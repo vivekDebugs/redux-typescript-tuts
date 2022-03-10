@@ -1,5 +1,6 @@
 import { Reducer } from 'redux'
-import { IPost, Actions, ActionType } from '../types'
+import Actions from '../actions/actionTypes'
+import { IPost, ActionType } from '../types'
 
 export const postsReducer: Reducer<IPost[], ActionType> = (
   state = [],

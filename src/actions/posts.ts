@@ -1,4 +1,5 @@
-import { IPost, ActionType, Actions } from '../types'
+import { IPost, ActionType } from '../types'
+import Actions from './actionTypes'
 
 export const addPost = (post: IPost): ActionType => ({
   type: Actions.ADD_POST,

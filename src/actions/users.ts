@@ -1,4 +1,5 @@
-import { IUser, ActionType, Actions } from '../types'
+import { IUser, ActionType } from '../types'
+import Actions from './actionTypes'
 
 export const addUser = (user: IUser): ActionType => ({
   type: Actions.ADD_USER,
