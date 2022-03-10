@@ -1,5 +1,6 @@
 import { Reducer } from 'redux'
-import { IUser, Actions, ActionType } from '../types'
+import Actions from '../actions/actionTypes'
+import { IUser, ActionType } from '../types'
 
 export const usersReducer: Reducer<IUser[], ActionType> = (
   state = [],

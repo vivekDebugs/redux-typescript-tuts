@@ -1,13 +1,6 @@
-import { RootStateType } from './reducers'
+import Actions from './actions/actionTypes'
 
-export type { RootStateType }
-
-export enum Actions {
-  ADD_POST = 'posts/addPost',
-  DELETE_POST = 'posts/deletePost',
-  ADD_USER = 'users/addUser',
-  DELETE_USER = 'users/deleteUser',
-}
+export type { RootStateType } from './reducers'
 
 export interface IPost {
   id: number
